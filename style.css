@@ -1,0 +1,69 @@
+.Title {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.cTotal {
+  text-align: right;
+  list-style-type: none;
+}
+
+body {
+  padding-bottom: 50px;
+}
+body {
+  padding-bottom: 50px;
+}
+.rm {
+    float: right;
+}
+.cRm {
+  border: 0;
+  background-color: white;
+    font-size: large;
+
+}
+.cRm:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.heart {
+    display: inline-block;
+}
+.minusAdd {
+display: inline-flex;
+}
+
+
+.row{
+    justify-content: space-between;
+
+}
+.listOfItems {
+    list-style-type: none;
+
+}
+.itemsInfo {
+    border-style: solid;
+    border-top: 0ch;
+    border-left: 0;
+    border-right: 0;
+}
+
+.btn-primary, .btn-secondary   {
+    
+	background-color: rgb(179, 179, 179);
+	height: 50px;
+	width: 50px;
+}
+
+.cart {
+    margin-left: 150px;
+    margin-right: 150px;
+ 
+}
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+}
