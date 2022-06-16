@@ -1,12 +1,11 @@
 .Title {
   margin-top: 100px;
   text-align: center;
+  font-size: 30px;
+
+
 }
 
-.cTotal {
-  text-align: right;
-  list-style-type: none;
-}
 
 body {
   padding-bottom: 50px;
@@ -20,7 +19,9 @@ body {
 .cRm {
   border: 0;
   background-color: white;
-    font-size: large;
+  font-size: large;
+  font-size: 36px;
+
 
 }
 .cRm:hover {
@@ -30,9 +31,6 @@ body {
 
 .heart {
     display: inline-block;
-}
-.minusAdd {
-display: inline-flex;
 }
 
 
@@ -53,10 +51,12 @@ display: inline-flex;
 
 .btn-primary, .btn-secondary   {
     
-	background-color: rgb(179, 179, 179);
+	background-color: gray;
 	height: 50px;
 	width: 50px;
 }
+
+    
 
 .cart {
     margin-left: 150px;
@@ -66,4 +66,25 @@ display: inline-flex;
 body {
     margin-left: 150px;
     margin-right: 150px;
+}
+.cTotal {
+	font-size: 36px;
+	line-height: 44px;
+	text-transform: uppercase;
+    list-style-type: none;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    text-align: right;
+  
+}
+
+.minusAdd {
+    display: inline-flex;
+    margin-left: 20px;
+}
+.cItem {
+    font-size: 36px;
+
 }
