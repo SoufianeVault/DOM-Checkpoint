@@ -1,87 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
     <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
-    <div class="Title">
+  </head>
+  <body>
+      <div class="Title">
         <h1>Shopping Cart</h1>
-     </div>
-
-  <div class ="cart">
-    <ul id="items" class="listOfItems">
-        <li id="itemInfo" class="itemsInfo">
-        <div class="itemsBox">
-            <h3 class="cItem">T-shirt <span id="price"> 125 </span>MAD</h3>
-            <img src="img/t-shirt.jpg" width="150" height="150">
-            <div class="heart">
+      </div>
+      <div class="cart">
+        <ul id="items" class="listOfItems">
+          <li id="itemInfo" class="itemsInfo">
+            <div class="itemsBox">
+              <h3 class="cItem">T-shirt <span id="price"> 125 </span>MAD </h3>
+              <img src="img/t-shirt.jpg" width="150" height="150">
+              <div class="heart">
                 <img id="heart" src="img/heartE.png" width="50" height="50">
+              </div>
+              <div class="barQuant">
+                <div class="minusAdd">
+                  <button class="bMinus" type="button" id="minus-button">
+                    <h4>-</h4>
+                  </button>
+                  <div class="quant">
+                    <h3 id="quantity">1</h3>
+                  </div>
+                  <button class="bAdd" type="button" id="add-button">
+                    <h4>+</h4>
+                  </button>
                 </div>
-         <div class="barQuant">
-            <div class= "minusAdd">
-            <button class="bMinus" type="button" id="minus-button" ><h4>-</h4></button>
-            <div class="quant">
-            <h3 id="quantity">1</h3>
-            </div>
-            <button class="bAdd" type="button" id="add-button" ><h4>+</h4></button>
-        </div>
-        <div class="rm">
-            <button 
-            class="cRm" type="button" id="remove" >Remove
-            </button>
-         </div>
-        </div>
-        </li> 
-        
-
-
-                <li id="itemInfo" class="itemsInfo">
-                    <div class="itemsBox">
-                        <h3 class="cItem">Hoodie  <span id="price"> 240 </span>MAD</h3>
-                        <img src="img/hoodie.webp" width="150" height="150">
-                        <div class="heart">
-                            <img id="heart" src="img/heartE.png" width="50" height="50">
-                            </div>
-                     <div class="barQuant">
-                        <div class= "minusAdd">
-                        <button class="bMinus" type="button" id="minus-button" ><h4>-</h4></button>
-                        <div class="quant">
-                        <h3 id="quantity">1</h3>
-                        </div>
-                        <button class="bAdd" type="button" id="add-button" ><h4>+</h4></button>
-                    </div>
-                    <div class="rm">
-                        <button 
-                        class="cRm" type="button" id="remove" >Remove
-                        </button>
-                     </div>
-                    </div>
-                    </li> 
-
-
-
-
-    </ul>
-    <div class="cartAdd">
-    </div>
-  </div>
-  
-  <footer>
-<div>
-    <li class="cTotal">
-        <div class="dTotal">
-        <h3 class="hTotal" id="total"></h3>
-        </div>
-    </li>
-</div>
-</footer>
-
-
-<script src="script.js"></script>
-</body>
+                <div class="rm">
+                  <button class="cRm" type="button" id="remove">Remove </button>
+                </div>
+              </div>
+          </li>
+          <li id="itemInfo" class="itemsInfo">
+            <div class="itemsBox">
+              <h3 class="cItem">Hoodie <span id="price"> 240 </span>MAD </h3>
+              <img src="img/hoodie.webp" width="150" height="150">
+              <div class="heart">
+                <img id="heart" src="img/heartE.png" width="50" height="50">
+              </div>
+              <div class="barQuant">
+                <div class="minusAdd">
+                  <button class="bMinus" type="button" id="minus-button">
+                    <h4>-</h4>
+                  </button>
+                  <div class="quant">
+                    <h3 id="quantity">1</h3>
+                  </div>
+                  <button class="bAdd" type="button" id="add-button">
+                    <h4>+</h4>
+                  </button>
+                </div>
+                <div class="rm">
+                  <button class="cRm" type="button" id="remove">Remove </button>
+                </div>
+              </div>
+          </li>
+          <li id="itemInfo" class="itemsInfo">
+            <div class="itemsBox">
+              <h3 class="cItem">Short <span id="price"> 270 </span>MAD </h3>
+              <img src="img/short.png" width="150" height="150">
+              <div class="heart">
+                <img id="heart" src="img/heartE.png" width="50" height="50">
+              </div>
+              <div class="barQuant">
+                <div class="minusAdd">
+                  <button class="bMinus" type="button" id="minus-button">
+                    <h4>-</h4>
+                  </button>
+                  <div class="quant">
+                    <h3 id="quantity">1</h3>
+                  </div>
+                  <button class="bAdd" type="button" id="add-button">
+                    <h4>+</h4>
+                  </button>
+                </div>
+                <div class="rm">
+                  <button class="cRm" type="button" id="remove">Remove </button>
+                </div>
+              </div>
+          </li>
+        </ul>
+        <div class="cartAdd"></div>
+      </div>
+      <div>
+        <li class="cTotal">
+          <div class="dTotal">
+            <h3 class="hTotal" id="total"></h3>
+          </div>
+        </li>
+      </div>
+    <script src="script.js"></script>
+  </body>
 </html>
