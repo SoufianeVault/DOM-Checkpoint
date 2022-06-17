@@ -3,7 +3,7 @@ let minusButtons = Array.from(document.querySelectorAll("#minus-button"));
 let quantitys = Array.from(document.querySelectorAll("#quantity"));
 let prices = Array.from(document.querySelectorAll("#price"));
 let remove = Array.from(document.querySelectorAll("#remove"));
-let parents = Array.from(document.querySelectorAll("#itemInfo"));
+let itemsinfo = Array.from(document.querySelectorAll("#itemInfo"));
 let hearts = Array.from(document.querySelectorAll("#heart"));
 
 let arrOfQuantitys = [];
@@ -24,14 +24,6 @@ function updateTotal(){
     document.getElementById('total').textContent=`TOTAL: ${total} MAD`;
 }
 updateTotal();
-
-function updatePrices(){
-    let cPrice = 0 ;
-    for(let i in quantitys)
-    total += arrOfcPrices[i]*arrOfQuantitys[i];
-    document.getElementById('cPrice').textContent=`: ${cPrice} `;
-}
-
 
 
 // Plus
@@ -59,7 +51,7 @@ for(let i in remove){
     remove[i].addEventListener("click",function(){
         arrOfQuantitys[i] = 0;
         updateTotal();
-        parents[i].remove();
+        itemsinfo[i].remove();
     });
 }
 
