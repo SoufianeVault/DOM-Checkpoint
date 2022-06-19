@@ -46,6 +46,13 @@ body {
   border-radius: 50px;
   position: relative;
 }
+.quant {
+  height: 60px;
+  width: 30px;
+  text-align: center;
+  
+}
+
 h4 {
   margin: 0 auto;
   position: relative;
